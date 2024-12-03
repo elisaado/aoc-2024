@@ -1,0 +1,4 @@
+inputs/*
+!inputs/.gitkeep
+.session
+aoc-2024
