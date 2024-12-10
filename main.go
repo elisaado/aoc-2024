@@ -8,6 +8,7 @@ import (
 	"strings"
 
 	"github.com/elisaado/aoc-2024/day"
+	_ "github.com/elisaado/aoc-2024/day10"
 	_ "github.com/elisaado/aoc-2024/day9"
 	_ "github.com/elisaado/aoc-2024/day8"
 	_ "github.com/elisaado/aoc-2024/day7"
