@@ -8,16 +8,20 @@ import (
 	"strings"
 
 	"github.com/elisaado/aoc-2024/day"
-	_ "github.com/elisaado/aoc-2024/day10"
-	_ "github.com/elisaado/aoc-2024/day9"
-	_ "github.com/elisaado/aoc-2024/day8"
-	_ "github.com/elisaado/aoc-2024/day7"
-	_ "github.com/elisaado/aoc-2024/day6"
-	_ "github.com/elisaado/aoc-2024/day5"
-	_ "github.com/elisaado/aoc-2024/day4"
-	_ "github.com/elisaado/aoc-2024/day3"
-	_ "github.com/elisaado/aoc-2024/day2"
 	_ "github.com/elisaado/aoc-2024/day1"
+	_ "github.com/elisaado/aoc-2024/day10"
+	_ "github.com/elisaado/aoc-2024/day11"
+	_ "github.com/elisaado/aoc-2024/day12"
+	_ "github.com/elisaado/aoc-2024/day13"
+	_ "github.com/elisaado/aoc-2024/day14"
+	_ "github.com/elisaado/aoc-2024/day2"
+	_ "github.com/elisaado/aoc-2024/day3"
+	_ "github.com/elisaado/aoc-2024/day4"
+	_ "github.com/elisaado/aoc-2024/day5"
+	_ "github.com/elisaado/aoc-2024/day6"
+	_ "github.com/elisaado/aoc-2024/day7"
+	_ "github.com/elisaado/aoc-2024/day8"
+	_ "github.com/elisaado/aoc-2024/day9"
 )
 
 func main() {
@@ -43,7 +47,7 @@ func main() {
 		}
 	case "test":
 		{
-			if len(args) != 3 {
+			if len(args) < 3 {
 				printHelp()
 				return
 			}
@@ -70,7 +74,7 @@ func main() {
 		}
 	case "run":
 		{
-			if len(args) != 2 {
+			if len(args) < 2 {
 				printHelp()
 				return
 			}
